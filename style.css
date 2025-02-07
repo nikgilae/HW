@@ -1,0 +1,48 @@
+*{
+    margin: 10px;
+    box-sizing: border-box;
+   } 
+   h1{
+    color: black;
+   }
+.img{
+    width: 450px;
+    height: 450px;
+    object-fit: contain;
+    border-radius: 30px;
+    
+}
+.me{
+    margin: 20px;
+    width: 200px;
+    height: 200px;
+}
+.opit{
+    margin: 20px;
+    width: 200px;
+    height: 200px;
+}
+.gif1{
+    width: 400px;
+    height: auto;
+    object-fit: contain;
+    border-radius: 30px;
+
+}
+
+.start{
+    display: flex;
+    justify-content: space-between; /* Раздвигаем элементы */
+    align-items: flex-start; /* Выравниваем по верхнему краю */
+    gap: 20px;
+}
+.img:hover{
+    transform: scale(1.1);
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+body{
+    background-image: url(https://bronzek.ru/wp-content/uploads/parallax-bg.jpg);
+}
